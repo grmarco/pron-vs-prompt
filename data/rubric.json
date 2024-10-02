@@ -1,0 +1,103 @@
+[{"id" : "atractivo",
+  "main_question": "1. Valora el atractivo de los siguientes aspectos del texto, entendiéndolo como objeto literario.",
+  "subquestions": 
+        [{"question_type":"radio",
+        "question":"¿El título te parece atractivo? ¿Te llama la atención y te hace interesarte por la sinopsis?",
+        "items":["0 No capta la atención, ni genera ningún interés por la historia.",
+            "1 Apenas capta la atención, pero sí suscita un leve interés.",
+            "2 Es sugerente y despierta la curiosidad.",
+            "3 Es cautivador, genera muchas expectativas sobre el texto."]},
+        {"question_type":"radio",
+                "question":"¿El estilo te parece atractivo y te hace disfrutar de la lectura de la sinopsis?",
+        "items":["0 El estilo carece de atractivo e, incluso, desmotiva la lectura.",
+                "1 El estilo tiene un leve atractivo, pero no destaca particularmente.",
+                "2 El estilo es atractivo y contribuye a contribuye a disfrutar de la lectura.",
+                "3 El estilo es cautivador por sí mismo, lo que permite crear una experiencia de lectura memorable."]},
+        {"question_type":"radio",
+                "question":"¿La historia y los personajes te parecen atractivos y captan tu interés por la temática en sí misma?",
+        "items":["0 La historia y los personajes carecen de atractivo, sin elementos que destaquen o agreguen valor.",
+                "1 La historia y los personajes tienen cierto atractivo, pero les faltan elementos que capten la atención.",
+                "2 La historia y los personajes son bastante atractivos y captan la atención.",
+                "3 La historia y los personajes son muy atractivos, y captan totalmente la atención."]}],
+"optional_text_box" : false
+
+        },
+{"id" : "originalidad",
+"main_question": "2. Valora la originalidad de los siguientes aspectos del texto. Entendemos que un texto es original si te sorprende (si es algo que no te esperabas, si no te resulta familiar o te recuerda a cosas que has leído antes) con independencia de si te ha resultado atractivo o no.",
+"subquestions": 
+        [{"question_type":"radio",
+                "question":"¿El título te parece original?",
+        "items":["0 El título es muy predecible, es un puro cliché.",
+                "1 El título es bastante predecible y recurre a lugares comunes.",
+                "2 El título es bastante original y rehúye los lugares comunes.",
+                "3 El título es único y sorprendente, no se parece a nada que haya visto antes."]},
+        {"question_type":"radio",
+                "question":"¿El estilo del texto es original y sorprendente?",
+        "items":["0 El estilo es formulaico y completamente convencional.",
+                "1 El estilo tiene algunos elementos originales, pero es predominantemente convencional.",
+                "2 El estilo es relativamente original, y no es fácil relacionarlo con otros escritores.",
+                "3 El estilo es muy original, y revela una voz propia del escritor."]},
+        {"question_type":"radio",
+                "question":"¿La trama del texto es original y aporta elementos innovadores?",
+        "items":["0 La trama es completamente convencional y recurre a ideas o clichés ampliamente explorados sin aportar elementos nuevos.",
+                "1 La trama es bastante convencional, aunque haya intentos marginales de introducir elementos originaless.",
+                "2 La trama es bastante original y aporta elementos innovadores.",
+                "3 La trama es muy original e innovadora."]}],
+"optional_text_box" : false
+},
+{
+"id" : "relevancia",
+"main_question": "",
+"subquestions": 
+        [{"question_type":"radio",
+                "question":"3. Teniendo en cuenta que el título ha sido el punto de partida del ejercicio literario, ¿te parece que el escritor ha sabido utilizarlo bien?",
+        "items":["No veo relación alguna entre el título y la sinopsis.",
+                "La relación entre el título y la sinopsis es casi irrelevante.",
+                "Hay cierta relación entre el título y la sinopsis, aunque no evidente. ",
+                "Hay mucha relación entre el título y la sinopsis y, de hecho, el desarrollo del texto es predecible a partir del título.",
+                "Hay mucha relación entre el título y la sinopsis y, además, el vínculo es sorprendente, la forma de desarrollar el título es original."]}],
+"optional_text_box" : false
+},
+{
+"id" : "creatividad",
+"main_question": "",
+"subquestions": 
+        [{"question_type":"grid",
+        "question" : "4. Valora la creatividad de:",
+                "rows":["El título:","La sinopsis:"],
+        "columns":["0 Nada creativo.",
+                "1 Levemente creativo.",
+                "2 Bastante creativo.",
+                "3 Muy creativo."]}],
+"optional_text_box" : true
+},
+{
+"id" : "autor",
+"main_question": "",
+"subquestions": [{"question_type":"grid",
+                "question" : "5. Valora la autoría:",
+                        "rows":["¿Quién crees que ha escrito este título?",
+                                "¿Quién crees que ha escrito la sinopsis?"],
+                "columns":["Un escritor novel.",
+                        "Un escritor consagrado.",
+                        "Una inteligencia artificial."]}],
+"optional_text_box" : true
+},
+{
+"id" : "crítica",      
+"main_question": "",
+"subquestions": 
+        [{"question_type":"grid",
+        "question" : "6. El ejercicio de inventar una sinopsis para una película imaginaria puede verse como una suerte de género literario. Imagina que ese género existe:",
+                "rows":["¿Crees que seleccionarías este texto en una antología de este género?",
+                "¿Crees que tu valoración del texto coincidiría con la de la mayoría de los lectores?",
+                "¿Crees que tu valoración del texto coincidiría con la de la mayoría de los críticos literarios?",
+                "Juzgando solo por este texto, ¿crees probable que el autor tenga un estilo reconocible, es decir, una voz propia?"],
+        "columns":["0 En ningún caso.",
+                "1 Es improbable.",
+                "2 Es probable.",
+                "3 Con toda seguridad."]}],
+"optional_text_box" : true
+}
+
+]
