@@ -1,6 +1,6 @@
 # pron-vs-prompt
 
-Reproducibility package for the EMNLP 2024 paper **“Pron vs Prompt: Can Large Language Models already Challenge a World-Class Fiction Author at Creative Text Writing?”** :contentReference[oaicite:0]{index=0}
+Reproducibility package for the EMNLP 2024 paper **“Pron vs Prompt: Can Large Language Models already Challenge a World-Class Fiction Author at Creative Text Writing?”**
 
 We run a controlled “duel” between **Patricio Pron** and **GPT-4 Turbo (gpt-4-0125-preview)** on a single creative task: writing ~600-word **movie synopses** from **60 titles** (30 proposed by each contender), with outputs in **Spanish** (Pron + GPT-4) and **English** (GPT-4). Texts are evaluated by **literature experts** using a rubric grounded in **Boden’s** creativity dimensions (novelty/surprise/value → *originality* + *attractiveness*), plus additional literary-judgment criteria. 
 
